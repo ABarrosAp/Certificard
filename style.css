@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #3e0d54 27.26%, #140138 96.03%);
+  /*   background-size: cover; */
+  font-family: "Cormorant Garamond", serif;
+}
+
+.container {
+  background: linear-gradient(236.85deg, #f9552c 37.26%, #fc8105 86.03%);
+  color: #fefefd;
+  margin: 4rem;
+  border-radius: 1.25rem;
+  box-shadow: 6px 6px 6px #4f0155;
+  padding: 4rem;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  align-items: top center;
+}
+
+.perfil-foto {
+  border-radius: 12.5rem;
+  height: 13rem;
+  box-shadow: 0px 2px 6px #4b0c5b;
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  text-shadow: 1px 2px 2px blueviolet;
+}
+
+.titulo h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 1px blueviolet;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(236.85deg, #fc8105 37.26%, #f9552c 86.03%);
+  border-radius: 6.25rem;
+  border-color: #fbefb2;
+  color: #fbefb2;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 1px 1px gold;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://i.redd.it/hb5qhio1hjk71.jpg");
+  background-size: cover;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 3.75rem;
+  box-shadow: 5px 5px 5px #56033d;
+  align-items: justify;
+  justify-content: center;
+  font-weight: 700;
+  transition: background 2s ease;
+}
+
+.linksProjetos {
+  align-items: justify;
+  margin-left: 1.5rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-shadow: 1px 1px gold;
+  list-style: none;
+  line-height: 2rem;
+}
+
+.linksSocial {
+  /*   display: flex;
+  flex-direction: row; */
+  justify-content: justify;
+  margin-left: 62.5rem;
+  font-size: 1.25rem;
+  text-shadow: 1px 1px gold;
+  list-style: none;
+}
+
+.lista {
+  list-style: none;
+}
+
+.linksProjetos a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px gold;
+}
+
+.hollowPurple {
+  background: linear-gradient(236.85deg, #60013c 37.26%, #a50051 86.03%);
+  /*   transition: background-color 2s ease;        NÃO FUNCIONA*/
+}
+
+.hollowPurple .container {
+  background: linear-gradient(236.85deg, #a2013d 27.26%, #e71d18 96.03%);
+  box-shadow: 6px 6px 6px #4f0155;
+  /*   transition: background-color 2s ease;        NÃO FUNCIONA */
+}
+
+.hollowPurple .perfil-foto {
+  box-shadow: 0px 2px 6px #fc0953;
+}
+
+.hollowPurple .tema button {
+  background: linear-gradient(236.85deg, #a2013d 27.26%, #e71d18 96.03%);
+  border-color: #8d026b;
+  color: #8d026b;
+}
+
+.hollowPurple .projetos {
+  background-image: url("https://images7.alphacoders.com/116/1163207.png");
+  transition: background 2s ease;
+}
